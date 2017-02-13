@@ -403,6 +403,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = J4.ButtonEvent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -415,6 +416,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = J4.ButtonEvent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -491,6 +493,7 @@
 				AEEF18FB1DB088320045C602 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AEEF18FC1DB088320045C602 /* Build configuration list for PBXNativeTarget "ButtonEventTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +502,7 @@
 				AEEF18FE1DB088320045C602 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AEEF18FF1DB088320045C602 /* Build configuration list for PBXNativeTarget "ButtonEventUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +511,7 @@
 				AEEF19011DB088320045C602 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

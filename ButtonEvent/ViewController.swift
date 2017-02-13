@@ -28,7 +28,7 @@ class ViewController: UIViewController {
     @IBAction func buttonTapped(sender: UIButton) {
         
         // UIAlertController
-        let alertController: UIAlertController = UIAlertController(title: "クリック", message: "ボタンをクリックしました！", preferredStyle: .alert)
+        let alertController: UIAlertController = UIAlertController(title: "ハンドラ", message: "", preferredStyle: .alert)
         
         // 選択肢
         // 異なる方法でactionを設定してみた
