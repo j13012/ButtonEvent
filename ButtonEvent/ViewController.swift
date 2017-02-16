@@ -15,23 +15,26 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //ボタンの設定
         let buttonWidth: CGFloat = 200
         let buttonHeight: CGFloat = 40
         let posX: CGFloat = (self.view.bounds.width - buttonWidth)/2
         let posY: CGFloat = (self.view.bounds.height - buttonHeight)/2
         btn.frame = CGRect(x: posX, y: posY, width: buttonWidth, height: buttonHeight)
+        
+        //アクション時のターゲットを設定
         btn.addTarget(self, action: #selector(buttonTapped(sender:)), for: .touchDown)
+        
+        //ビューに追加
         self.view.addSubview(btn)
     }
     
     
     @IBAction func buttonTapped(sender: UIButton) {
-        
-        // UIAlertController
+        // アラートを設定
         let alertController: UIAlertController = UIAlertController(title: "ハンドラ", message: "", preferredStyle: .alert)
         
-        // 選択肢
-        // 異なる方法でactionを設定してみた
+        // アラートのOKボタン
         let actionOK = UIAlertAction(title: "OK", style: .default){
             action in
             print("OK")
